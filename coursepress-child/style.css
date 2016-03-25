@@ -1,0 +1,110 @@
+/*
+ Theme Name:   Red Jacket West - CoursePress
+ Description:  CoursePress Child Theme
+ Author:       Christopher Grove
+ Author URI:   https://redjacketwest.com
+ Template:     coursepress
+ Version:      1.0.0
+ Text Domain:  coursepress-child
+*/
+
+/*Removes Useless Border lines and random Background colors on the Course Description Page*/
+.video_player, .course-video, .quick-course-info{
+	background-color:transparent;
+	border:none!important;
+}
+
+/****************
+*
+*Mobile Styling
+*
+*****************/
+
+/****************
+*
+*700px
+*
+*****************/
+@media (max-width:700px){
+	/*Extend billing section to full width*/
+	.woocommerce-billing-fields {
+    		width: 100%;
+	}
+	
+	/*Fixes broken Course Summary text on Courses page for mobile*/
+	.video_player {
+    	height: 0px!important;
+	}
+}
+/************End 700px Mobile Styling***************/
+
+/****************
+*
+*450px
+*
+*****************/
+@media (max-width:450px){
+	/*Adjust width of the bars that show the Course Structure section of Course Description page to look more formal*/
+	.tree li label{
+		width:96.5%;
+	}
+	/*Makes the Enroll and Continue Learning buttons to be full width on mobile*/
+	.apply-button.enroll, .apply-button.apply-button-enrolled{
+		min-width:100%!important;
+	}
+}
+/************End 450px Mobile Styling***************/
+
+
+
+
+
+/****************
+*
+*
+*
+*****************/
+
+
+
+/****************
+*
+*
+*
+*****************/
+
+
+
+/****************
+*
+*
+*
+*****************/
+
+
+/****************
+*
+*
+*
+*****************/
+
+
+/****************
+*
+*
+*
+*****************/
+
+
+/****************
+*
+*
+*
+*****************/
+
+
+/****************
+*
+*
+*
+*****************/
